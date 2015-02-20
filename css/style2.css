@@ -13,6 +13,20 @@ body {
   height: 110px;*/
   /*margin: 40vh auto 0 auto;*/
 }
+#once {
+  position: relative;
+}
+#myonce{
+  stroke-dasharray: 500px;
+  stroke-dashoffset: 500px;
+  opacity: 0;
+  fill: white;
+/*  animation: draw 5s linear forwards;
+  -webkit-animation: draw 8s linear forwards;
+  -moz-animation: draw 8s linear forwards;
+  -o-animation: draw 8s linear forwards;*/
+  font-weight: bold;
+}
 #mycanvas {
   position: relative;
   width: 633.79px;
@@ -51,7 +65,7 @@ body {
 
 /* Create huge scrolling area (imitates height of a page) */
 main { 
-  padding: 200px 0 1500px 0;
+  padding: 200px 0 700px 0;
   overflow: hidden; 
 }
 

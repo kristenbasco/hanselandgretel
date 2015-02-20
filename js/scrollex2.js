@@ -34,5 +34,12 @@ $(function() {
   
   // Add debug indicators fixed on right side
    scene.addIndicators();
-  
+    
+   scene.on("end", function () {
+    $("#myonce").animate({
+      opacity: 1,
+      'stroke-dashoffset': 0
+    }, 5000);
+   });
+
 });
