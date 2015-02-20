@@ -6,7 +6,7 @@ body {
 #scene{
   padding: 100px;
 }
-#svg-container {
+.svg-container {
   position: relative;
   text-align: center;
 /*  width: 360px;
@@ -26,6 +26,11 @@ body {
   -moz-animation: draw 8s linear forwards;
   -o-animation: draw 8s linear forwards;*/
   font-weight: bold;
+}
+#attempt {
+  position: relative;
+  width: 780px;
+  height: 400px;
 }
 #mycanvas {
   position: relative;
