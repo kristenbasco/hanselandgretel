@@ -40,6 +40,7 @@ body {
 .mytitle{
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
+  fill-opacity: 1;
   animation: draw 5s linear forwards;
   -webkit-animation: draw 8s linear forwards;
   -moz-animation: draw 8s linear forwards;
