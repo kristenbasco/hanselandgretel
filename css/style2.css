@@ -1,6 +1,12 @@
-/* Ignore => Base Styles */
+/* hansel and gretel color palette
+reddish brown: #A35A47;
+grey: #8E9196; 
+beige: #E5D2B4;
+toupe pink beige?: #CEB19F;
+green: #A7AF80;
+*/
 body { 
-  background: #003300; 
+  background: #A7AF80; 
 }
 .ScrollSceneIndicators { z-index: 9999999 !important; }
 #scene{
@@ -40,11 +46,11 @@ body {
 .mytitle{
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
-  fill-opacity: 1;
-  animation: draw 5s linear forwards;
-  -webkit-animation: draw 8s linear forwards;
-  -moz-animation: draw 8s linear forwards;
-  -o-animation: draw 8s linear forwards;
+  fill-opacity: 0;
+  animation: draw 5s linear forwards, fillit 3s linear 4s forwards;
+  -webkit-animation: draw 8s linear forwards, fillit 3s linear 4s forwards;
+  -moz-animation: draw 8s linear forwards, fillit 3s linear 4s forwards;
+  -o-animation: draw 8s linear forwards, fillit 3s linear 4s forwards;
   font-weight: bold;
 }
 @keyframes draw {
@@ -66,6 +72,27 @@ body {
 @-o-keyframes draw {
   to {
     stroke-dashoffset: 0;
+  }
+}
+@keyframes fillit {
+  to {
+    fill-opacity: 1;
+  }
+}
+@-webkit-keyframes fillit {
+  to {
+    fill-opacity: 1;
+  }
+}
+
+@-moz-keyframes fillit {
+  to {
+    fill-opacity: 1;
+  }
+}
+@-o-keyframes fillit {
+  to {
+    fill-opacity: 1;
   }
 }
 
