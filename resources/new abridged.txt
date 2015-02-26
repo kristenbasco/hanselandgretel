@@ -1,6 +1,7 @@
 Summary:
 Once upon a time, two children lived with their father on the edge of a great forest. They were very poor, and one day the children wandered into the forest to look for food. So they would not lose their way, they left a trail of bread crumbs behind them…
 
+Assets needed: trees and breadcrumbs
 
 1. Hansel and Gretel in the forest:
 They wandered until nightfall and then decided to turn back and follow their path home, but when they looked back the way they came they found the bread crumbs had been eaten by birds!
@@ -15,12 +16,13 @@ Assets needed: Gingerbread/candy house, trees, Hansel and Gretal, sun
 3. Witch invites them in.
 The starving children had begun to eat the candy house when suddenly an old woman appeared from inside. Seeing how hungry they were she offered to let them in and make them dinner.
 
-Assets needed: Witch, same as above ^ 
+Assets needed: Witch, same as above ^ only Hansel and Gretal eating house
 
 4. Once inside, the witch grabs Hansels and locks him up.
 The woman was only pretending to be kind, really she was a witch! When the children stepped into her house she locked them up and told them she was going to eat them.
 
 Assets needed: cage, Hansel, Witch, walls (something that makes it look like we’re inside)
+	like a wall with a window maybe
 
 5. Gretel and Witch in the kitchen, oven in heated.
 The evil witch began preparing a pie to stick the children in, and they cried out in fear.  Then she opened the door to a giant oven.
@@ -40,4 +42,4 @@ Assets needed: Oven, witch in flames, house (exterior), hansel & gretel (outside
 8. Arrive back home
 Soon they found their home once more, and rushing inside they hugged their father and lived happily ever after.
 
-Assets needed: Father, Hansel and Gretel, (other house stuff..lol)
+Assets needed: Father, Hansel and Gretel, (other house stuff..lol) edge of forest thing
