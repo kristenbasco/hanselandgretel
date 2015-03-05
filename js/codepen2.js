@@ -23,80 +23,126 @@ $(function() {
 	// .add(TweenMax.to($dot, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))  // draw dot for 0.1
 	// .add(TweenMax.to("path", 1, {stroke: "#fff", ease:Linear.easeNone}), 0)			// change color during the whole thing
 
-	.add(TweenMax.to('#fades', 1, { 
+	.add(TweenMax.to('#scene1', 1, { 
 		transform: 'translateY(0)'
 	}))
-	.add(TweenMax.to('#fades', 4, {
+	.add(TweenMax.to('#scene1', 4, {
 		opacity: 1,
 		delay: 0.5
 	}))
-	.add(TweenMax.to('#fades img#treetwo', 4, {
-		transform: 'translateX(0)',
-		opacity: .90,
-		delay: 5,
-		ease: Linear.easeNone
-	}))
-	.add(TweenMax.to('#fades h3#onceupon', 4, {
+
+
+	 // once upon a time
+	.add(TweenMax.to('#scene1 h3#onceupon', 4, {
 		opacity: 1,
 		delay: 5
 	}))
-	.add(TweenMax.to('#fades h3#onceupon', 1, {
+	.add(TweenMax.to('#scene1 h3#onceupon', 1, {
 		opacity: 0,
 	}))
-	.add(TweenMax.to('#fades img#treeone', 4, {
-		transform: 'translateX(0)',
-		opacity: 1,
-		delay: 5,
+
+	// forest
+	.add(TweenMax.to('#scene1 img#treetwo', 3, {
+		transform: 'translateY(0)',
+		opacity: .90,
 		ease: Linear.easeNone
 	}))
-	.add(TweenMax.to('#fades h3#onceupon2', 4, {
+	.add(TweenMax.to('#scene1 img#treeone', 2, {
+		transform: 'translateY(0)',
 		opacity: 1,
-		delay: 2
-	}))
-	.add(TweenMax.to('#fades h3#onceupon2', 1, {
-		opacity: 0,
-	}))
-	.add(TweenMax.to('#fades img#treethree', 4, {
-		transform: 'translateX(0)',
-		opacity: 1,
-		delay: 5,
 		ease: Linear.easeNone
 	}))
-	.add(TweenMax.to('#fades img#treeone', .5, {
+	.add(TweenMax.to('#scene1 img#treethree', 1, {
+		transform: 'translateY(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene1 img#treeone', .5, {
 		opacity: .98,
 		ease: Linear.easeNone
 	}))
-	.add(TweenMax.to('#fades h3#onceupon3', 4, {
+
+	// they were very poor
+	.add(TweenMax.to('#scene1 h3#onceupon2', 4, {
 		opacity: 1,
 		delay: 2
 	}))
-	.add(TweenMax.to('#fades h3#onceupon3', 1, {
+	.add(TweenMax.to('#scene1 h3#onceupon2', 1, {
 		opacity: 0,
 	}))
-	.add(TweenMax.to('#fades img.bread', 4, {
-		opacity: .9,
-		delay: 5,
+
+	// so they left a trail of bread crumbws
+	.add(TweenMax.to('#scene1 h3#onceupon3', 4, {
+		opacity: 1,
+		delay: 2
+	}))
+	.add(TweenMax.to('#scene1 h3#onceupon3', 1, {
+		opacity: 0,
+	}))
+
+	// moving trees
+	.add(TweenMax.to('#scene1 img#treethree', 1, {
+		transform: 'translateX(-600px)',
+		delay: 1,
 		ease: Linear.easeNone
 	}))
-	// .add(TweenMax.to('#fades img#bread', 4, {
-	// 	opacity: .1,
-	// 	delay: 5,
-	// 	ease: Linear.easeNone
-	// }))
-	// .add(TweenMax.to('#fades img#bread', 4, {
-	// 	onUpdate: function () {
-	// 		  $("#bread").attr("src", "img/breadcrumbs_color.png"); // set the image source
-	// 	},
-	// 	opacity: 1,
-	// 	ease: Linear.easeNone
-	// }))
-	.add(TweenMax.to('#wipe', 1, { 
-		transform: 'translateY(0)'
+	.add(TweenMax.to('#scene1 img#treeone', 1, {
+		transform: 'translateX(700px)',
+		opacity: 1,
+		delay: 1,
+		ease: Linear.easeNone
 	}))
-	.add(TweenMax.to('#wipe', 4, {
+
+	.add(TweenMax.to('#scene1 img.bread', 4, {
+		opacity: .9,
+		delay: 2,
+		ease: Linear.easeNone
+	}))
+	
+	
+	.add(TweenMax.to('#scene2', 1, { 
+		transform: 'translateY(0)',
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene2', 4, {
 		opacity: 1,
 		delay: 0.5
 	}))
+
+
+	// wandering through forest
+	.add(TweenMax.to('#scene2 h3#onceupon4', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene2 h3#onceupon4', 1, {
+		opacity: 0,
+	}))
+	// forest
+	// .add(TweenMax.to('#scene2 img#forest_scene2', 3, {
+	// 	transform: 'translateX(0)',
+	// 	opacity: .90,
+	// 	ease: Linear.easeNone
+	// }))
+	// // kids
+	// .add(TweenMax.to('#scene2 img#forest_scene2', 3, {
+	// 	transform: 'translateX(0)',
+	// 	opacity: .90,
+	// 	ease: Linear.easeNone
+	// }))
+	// .add(TweenMax.to('#scene2 img#hansel_walking', 3, {
+	// 	transform: 'translateX(0)',
+	// 	opacity: .90,
+	// 	ease: Linear.easeNone
+	// }))
+	// .add(TweenMax.to('#scene2 img#hansel_walking', 6, {	
+	// 	transform: 'scale(2)',
+ // 		ease: Cubic.easeOut,
+ //  		repeat: -1, // this negative value repeats the animation
+ //  		yoyo: true
+	// }))
+
+
 	.add(TweenMax.to('#second-wipe', 1, { transform: 'translateY(0)' }))
 	.add(TweenMax.to('#slide', 1, {
 	    top: '0%',

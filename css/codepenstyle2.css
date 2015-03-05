@@ -80,14 +80,22 @@ header {
 }
 #pin h3 {
   margin: -40px 0 0 0;
-  position: relative;
+  
+/*  position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+*/
+
   font-size: 80px;
   line-height: 80px;
   text-align: center;
   color: #EFEFEF;
 }
-#fades {
+
+
+
+
+#scene1 {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -96,38 +104,49 @@ header {
   right: 0;
   background: #A7AF80;
   opacity: 0;
-    -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
-#fades h3{
+#scene1 h3{
   opacity: 0;
   position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
 }
-#fades img{
+#scene1 img{
   opacity: 0;
   position: absolute;
   margin: 0 auto;
   text-align: center;
 }
-#fades #treethree{
+#scene1 #treethree{
   width: 100%;
   top: 35%;
   -webkit-transform: translateY(100%);
   -ms-transform: translateY(100%);
   ransform: translateY(100%);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
-#fades #treeone{
+#scene1 #treeone{
   width: 150%;
   left: -25%;
   -webkit-transform: translateY(100%);
   -ms-transform: translateY(100%);
   ransform: translateY(100%);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 /*  -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);*/
 }
-#fades #treetwo{
+#scene1 #treetwo{
   width: 200%;
   left: -50%;
   top: -10%;
@@ -136,18 +155,22 @@ header {
   ransform: translateY(100%);
 }
 
-#fades .bread{
+#scene1 .bread{
   /*width: 354;*/
-  height: 85%;
-  left: 40%;
+  height: 40%;
+  left: 50%;
   /*top: 18%;*/
-  top: 40%;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+  top: 55%;
+  -webkit-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  transform: rotate(-40deg);
 
 }
-#wipe {
+
+
+
+
+#scene2 {
   height: 100%;
   overflow: hidden;
   position: absolute;
@@ -160,9 +183,52 @@ header {
   width: 100%;
   background: #A7AF80;
 }
-#wipe h3 {
-  color: white;
+#scene2 h3 {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+/*  left: 50%;
+  width: 50%;*/
+  -webkit-transform: translateY(-50%);
 }
+#scene2 #forest_scene2{
+  opacity: 0;
+  width: 200%;
+  left: -50%;
+  top: -10%;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+#scene2 #hansel_walking{
+  opacity: 0;
+  width: 10%;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+#scene2 #gretel_walking{
+  opacity: 0;
+}
+#scene2 #breadcrumbs{
+  opacity: 0;
+}
+#scene2 #sun{
+  opacity: 0;
+}
+#scene2 #moon{
+  opacity: 0;
+}
+
+
+
+
 
 #second-wipe {
   height: 100%;
