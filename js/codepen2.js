@@ -334,11 +334,11 @@ $(function() {
 
 	// scene 5, 4 technically
 	.add(TweenMax.to('#scene5', 1, { 
-		transform: 'translateY(0)'
+		transform: 'translateY(0)',
+		delay: 5
 	}))
 	.add(TweenMax.to('#scene5', 4, {
 		opacity: 1,
-		delay: 0.5
 	}))
 
 
@@ -456,11 +456,22 @@ $(function() {
 		delay:0.3
 	}))
 	.add(TweenMax.to('#scene6 img#gretel-crying', 1, {
-	
-
 		opacity: 1,
 		ease: Linear.easeNone
 	}))
+
+
+
+	// scene 6, 5 technically
+	.add(TweenMax.to('#scene6', 1, { 
+		transform: 'translateY(0)',
+		delay: 5
+
+	}))
+	.add(TweenMax.to('#scene6', 4, {
+		opacity: 1,
+	}))
+
 	.add(TweenMax.to('#scene6 h3#onceupon13', 4, {
 		opacity: 1,
 		delay: 5
@@ -522,7 +533,6 @@ $(function() {
 	}))
 	.add(TweenMax.to('#scene6 img#fire0', 1, {
 		opacity: 0.8,
-		
 	}))
 	.add(TweenMax.to('#scene6 img#fire0', 1, {
 		opacity: 0
@@ -592,6 +602,9 @@ $(function() {
 		opacity: 1,
 		delay: 5
 	}))
+	.add(TweenMax.to('#wipe img#fire3', 4, {
+		opacity: 1,
+	}))
 	.add(TweenMax.to('#wipe img#broom', 4, {
 		transform: 'translateX(0)',
 		opacity: 1,
@@ -601,8 +614,12 @@ $(function() {
 		opacity: 1,
 	}))
 	.add(TweenMax.to('#wipe img#fire1', 4, {
-		opacity: 1,
+		opacity: 0.5,
 	}))
+	.add(TweenMax.to('#wipe img#fire2', 4, {
+		opacity: 0.9,
+	}))
+	
 	.add(TweenMax.to('#wipe h3#witchdead1', 4, {
 		transform: 'translateX(0)',
 		opacity: 1,
@@ -611,6 +628,10 @@ $(function() {
 		transform: 'translateX(-500px)',
 		opacity: 0,
 		delay: 6
+	}))
+	.add(TweenMax.to('#wipe h3#witchdead2', 4, {
+		opacity: 1,
+		delay: 5
 	}))
 	.add(TweenMax.to('#wipe img#empty-cage', 4, {
 		transform: 'translateX(0)',
@@ -621,14 +642,14 @@ $(function() {
 		delay: 1,
 		opacity: 1
 	}))
-	.add(TweenMax.to('#wipe img#legs', 4, {
+	.add(TweenMax.to('#wipe img#legs', 1, {
 		transform: 'rotate(30deg)',
 	}))
 	.add(TweenMax.to('#wipe img#legs', 4, {
-		transform: 'rotate(-30deg)',
+		transform: 'rotate(-15deg)',
 	}))
 	.add(TweenMax.to('#wipe img#legs', 4, {
-		transform: 'rotate(30deg)',
+		transform: 'rotate(20deg)',
 	}))
 	.add(TweenMax.to('#wipe img#legs', 4, {
 		transform: 'rotate(0deg)',
@@ -637,22 +658,113 @@ $(function() {
 
 	// 7
 	.add(TweenMax.to('#scene7', 1, { 
-		transform: 'translateY(0)'
+		transform: 'translateY(0)',
+		delay: 5
 	}))
 	.add(TweenMax.to('#scene7', 4, {
-		opacity: 1,
-		delay: 0.5
+		opacity: 1
 	}))
+	// text one for this scene
+	.add(TweenMax.to('#scene7 img#running_trees', 1, {
+		transform: 'translateX(0)',
+		opacity: .9,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene7 img#running_house', 1, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene7 img#running_hansel', 1, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene7 img#running_gretel', 1, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene7 img#running_trees1', 1, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		delay: 5
+	}))
+		// text one for this scene
+	.add(TweenMax.to('#scene7 h3#backtoforest', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene7 img#peppermint_fire', 6, {
+		opacity: 1,
+		rotation: -90,
+	}))
+	.add(TweenMax.to('#scene7 h3#backtoforest', 1, {
+		opacity: 0,
+		delay: 5
+	}))
+
+
 
 
 	// scene 8
-	.add(TweenMax.to('#scene8', 1, { 
-		transform: 'translateY(0)'
+	.add(TweenMax.to('#scene8', 4, { 
+		transform: 'translateY(0)',
+		delay: 5
 	}))
-	.add(TweenMax.to('#scene8', 4, {
-		opacity: 1,
-		delay: 0.5
+	.add(TweenMax.to('#scene8', 4, { 
+		opacity: 1
 	}))
+	// .add(TweenMax.to('#scene8 img#endtree4', 1, {
+	// 	opacity: 1
+	// }))
+	// .add(TweenMax.to('#scene8 img#endtree3', 1, {
+	// 	opacity: 1
+	// }))
+	// .add(TweenMax.to('#scene8 img#endtree2', 1, {
+	// 	opacity: 1
+	// }))
+	// .add(TweenMax.to('#scene8 img#endtree1', 1, {
+	// 	opacity: 1
+	// }))	
+	.add(TweenMax.to('#scene8 img#hug', 1, {
+		opacity: 1
+	}))
+	.add(TweenMax.to('#scene8 h3', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene8 img#endtree2', 1, {
+		transform: "translateX(-800px)"
+	}))
+	.add(TweenMax.to('#scene8 img#endtree1', 1, {
+		transform: "translateX(1000px)"
+	}))
+	.add(TweenMax.to('#scene8 img#endtree3', 1, {
+		transform: "translateX(700px)"
+	}))
+	.add(TweenMax.to('#scene8 img#peppermint_end', 1, {
+		opacity: .1,
+		rotation: -90,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene8 h2', 1, {
+		opacity: 1
+	}))
+	// .add(TweenMax.to('#scene8 img#endtree4', 1, {
+	// 	transform: "translateX(-700px)"
+	// }))	
+
+	// .add(TweenMax.to('#scene8 h3#happyend', 4, {
+	// 	opacity: 1,
+	// 	delay: 5
+	// }))
+	// .add(TweenMax.to('#scene8 h3#happyend', 1, {
+	// 	opacity: 0
+	// }))
+	// .add(TweenMax.to('#scene8 h3#end', 4, {
+	// 	opacity: 1,
+	// 	delay: 5
+	// }))
 	;
 // 
 	// .add(TweenMax.to('#scene2 img#gretel_walking', 3, {
