@@ -327,7 +327,7 @@ $(function() {
 		rotation: -90,
 		// transform: 'rotate(30deg)',
 		// repeat: 1
-	}))
+	}));
 
 
 // 
@@ -366,7 +366,7 @@ $(function() {
 	//     TweenMax.to('#slide', 0.3, { backgroundColor: '#c7e1ff' }),
 	//     TweenMax.to('#slide h3:last-child', 0.3, { color: 'black' })
 	// ]).add(TweenMax.to('#slide-dos', 1, { transform: 'translateX(0)' }))
-	.add(TweenMax.from('#unpin', 0.5, { top: '100%', delay: 10 }));
+	// .add(TweenMax.from('#unpin', 0.5, { top: '100%', delay: 10 }));
 	var scene = new ScrollScene({
 	    triggerElement: 'section#pin',
 	    duration: 10000

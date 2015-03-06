@@ -25,6 +25,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   <link rel='stylesheet' href="css/codepenstyle2.css">
 
+  <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+  <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+
+
+
   <script>
     window.console = window.console || function(t) {};
     window.open = function(){ console.log('window.open is disabled.'); };
@@ -397,7 +402,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 <h3 id="onceupon2">They were very poor, and one day the children wandered into the forest to look for food.</h3>
                 <h3 id="onceupon3">So they would not lose their way, they left a trail of bread crumbs behind them…</h3>
 
-                <a href="#"><img class="bread" src="img/breadcrumbs_color.png" alt="breadcrumbs color"></a>
+                <a href="#" onclick="return hs.htmlExpand(this)"><img class="bread" src="img/breadcrumbs_color.png" alt="breadcrumbs color"></a>
+                <div class="highslide-maincontent">
+                  <h3>Lorem same</h3>
+                  Text about Hansel and Gretel
+              </div>
+
             </div>
         </div>
 
@@ -412,8 +422,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
               <h3 id="onceupon5">but when they looked back the way they came...</h3>
               <h3 id="onceupon6">they found the bread crumbs had been eaten!</h3>
 
-              <a href="#"><img id="sun" src="img/sun.png" alt="sun"></a>
-              <a href="#"><img id="moon" src="img/moon.png" alt="moon"></a>
+              <a href="#" onclick="return hs.htmlExpand(this)"><img id="sun" src="img/sun.png" alt="sun"></a>
+              <div class="highslide-maincontent">
+                  <h3>different</h3>
+                  Text about Hansel and Gretel
+              </div>
+              <a href="#" onclick="return hs.htmlExpand(this)"><img id="moon" src="img/moon.png" alt="moon"></a>
+              <div class="highslide-maincontent">
+                  <h3>another</h3>
+                  Text about Hansel and Gretel
+              </div>
 
             </div>
         </div>
@@ -430,7 +448,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
               <h3 id="onceupon8">As the sun rose they saw a little house in a clearing, and when they approached it they saw that it was built of cakes and candy.</h3>
 
-              <a href="#"><img id="house" src="img/house_color.png" alt="house"></a>
+              <a href="#" onclick="return hs.htmlExpand(this)"><img id="house" src="img/house_color.png" alt="house"></a>
+              <div class="highslide-maincontent">
+                  <h3>another</h3>
+                  Text about Hansel and Gretel
+              </div>
             </div>
         </div>
 
@@ -447,7 +469,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
               <h3 id="onceupon10">Seeing how hungry they were she offered to let them in and make them dinner.</h3>
 
-              <a href="#"><img id="peppermint" src="img/peppermint.png" alt="house"></a>
+              <a href="#" onclick="return hs.htmlExpand(this)"><img id="peppermint" src="img/peppermint.png" alt="house"></a>
+              <div class="highslide-maincontent">
+                  <h3>another</h3>
+                  Text about Hansel and Gretel
+              </div>
             </div>
         </div>
 
@@ -470,11 +496,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             </div>
         </div>-->
 
-        <div id="unpin">
+<!--         <div id="unpin">
             <div class="container">
                 <h3>Unpinzd Dawg</h3>
             </div>
-        </div> 
+        </div>  -->
 
     </section>
 </div>
