@@ -453,7 +453,45 @@ header {
 }
 
 
+#scene5 h3 {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+/*  left: 50%;
+  width: 50%;*/
+  -webkit-transform: translateY(-50%);
+}
 
+#scene5 #onceupon11-1{
+
+  
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  text-align: right;
+  /*width: 90%;*/
+  -webkit-transform: translateY(-60%);
+
+}
+
+
+#scene5 #witch_nice{
+  position: absolute;
+  width: 70%;
+  opacity: 0;
+  top: 10%;
+  left: 30%;
+
+}
+#scene5 #witch_evil{
+  position: absolute;
+  width: 50%;
+  opacity: 0;
+  top: 55%;
+  left: 40%;
+
+}
 
 
 
@@ -504,15 +542,16 @@ header {
 }
 #wipe #fire1{
   width: 25%;
+  /*height: 25%;*/
   left: 67.5%;
   top: 42.5%;
   z-index: 1;
 
 }
 #wipe #redbg{
-  width: 30%;
-  left: 65%;
-  top: 33% ;
+  width: 27%;
+  left: 68%;
+  top: 35% ;
 /*  z-index: -20;*/
 
 }
@@ -590,6 +629,13 @@ header {
   -ms-transform: translateX(90%);
   transform: translateX(90%);
 }
+#scene7 #peppermint_fire {
+  opacity: 0;
+  position: absolute;
+  width: 10%;
+  top: 12%;
+  left: 95%;
+}
 
 
 
@@ -612,11 +658,16 @@ header {
   top: 85%;
   -webkit-transform: translateY(-85%);
 }
+#scene8 h2 a{
+  text-decoration: none;
+  color: black;
+}
 #scene8 h2{
+  color: black;
   font-size: 3em;
   opacity: 0;
   position: absolute;
-  top: 10%;
+  top: 14%;
   left: 50%;
   -webkit-transform: translateX(-50%);
 }
@@ -635,14 +686,14 @@ header {
   left:-80%;
 }
 #scene8 #endtree3{
-  opacity: 1;
+  opacity: .95;
   position: absolute;
   width: 180%;
   top:20%;
   left:-40%;
 }
 #scene8 #endtree4{
-  opacity: 1;
+  opacity: .95;
   position: absolute;
   width: 150%;
   top:20%;
@@ -655,6 +706,14 @@ header {
   top: 40%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+}
+#scene8 #peppermint_end {
+  opacity: 0;
+  position: absolute;
+  width: 20%;
+  top: 5%;
+  left: 50%;
+   -webkit-transform: translateX(-50%); 
 }
 /*
 #second-wipe {
