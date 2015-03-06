@@ -358,22 +358,40 @@ $(function() {
 		delay:4
 			
 	}))
-	.add(TweenMax.to('#scene5 img#witch_nice', 2, {
-		opacity: 0.7,
-		ease: Linear.easeNone,
-		delay:2
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		transform:'rotate(2deg)',
 			
 	}))
-	.add(TweenMax.to('#scene5 img#witch_nice', 0.1, {
-		opacity: 0.3
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		transform:'rotate(-2deg)',
 			
 	}))
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		transform:'rotate(2deg)',
+			
+	}))
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		transform:'rotate(-4deg)',
+			
+	}))
+
+
 	.add(TweenMax.to('#scene5 img#witch_evil', 4, {
 		transform: 'scale(2.0)',
 		opacity: 1,
 		delay: 2,
 		ease: Linear.easeNone
+
 	}))
+	
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		opacity: 0.7,
+		ease: Linear.easeNone,
+		
+			
+	}))
+
+
 	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
 		opacity: 0,
 			
@@ -405,12 +423,7 @@ $(function() {
 
 
 
-
-
-
-
-
-	// scene 6, 5 technically
+	// scene 6, 5 technically (hansel in cage)
 	.add(TweenMax.to('#scene6', 1, { 
 		transform: 'translateY(0)'
 	}))
@@ -420,7 +433,154 @@ $(function() {
 	}))
 
 
-	// scene 6
+
+	.add(TweenMax.to('#scene6 img#table', 1, {
+		
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+
+	.add(TweenMax.to('#scene6 img#pie', 1, {
+		transform: 'translateY(0)',
+
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+
+
+	.add(TweenMax.to('#scene6 img#caged-hansel', 4, {
+		transform: 'translateX(0)',
+
+		opacity: 1,
+		ease: Linear.easeNone,
+		delay:0.3
+	}))
+	.add(TweenMax.to('#scene6 img#gretel-crying', 1, {
+	
+
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 h3#onceupon13', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+
+
+
+	.add(TweenMax.to('#scene6 img#oven-outline0', 1, {
+		transform: 'translateY(0)',
+
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#broom0', 1, {
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+
+	.add(TweenMax.to('#scene6 h3#onceupon13', 1, {
+		opacity: 0
+	}))
+
+	.add(TweenMax.to('#scene6 h3#onceupon14', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+
+	.add(TweenMax.to('#scene6 img#redbg0', 1, {
+		opacity: 0.7,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.8,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.7,
+		transform:'scale(1.6)',
+
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0-1', 1, {
+		opacity: 0.9,
+		transform:'scale(1)',
+	
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.4
+	}))
+
+	.add(TweenMax.to('#scene6 img#fire0-1', 1, {
+		opacity: 0.4,
+	
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.8,
+		
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.4
+	}))
+
+	.add(TweenMax.to('#scene6 img#fire0-1', 1, {
+		opacity: 0.4,
+	
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.9,
+		
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.4
+	}))
+
+	.add(TweenMax.to('#scene6 img#fire0-1', 1, {
+		opacity: 0.6,
+	
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.8,
+		
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.8
+	}))
+
+	.add(TweenMax.to('#scene6 img#fire0-1', 1, {
+		opacity: 0.4,
+	
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene6 img#fire0', 1, {
+		opacity: 0.9,
+		
+	}))
+
+
+
+
+
+
+
+
+	// scene 6 (witch burns)
 	.add(TweenMax.to('#wipe', 1, { 
 		transform: 'translateY(0)'
 	}))
