@@ -119,22 +119,174 @@ $(function() {
 		opacity: 0,
 	}))
 	// forest
-	// .add(TweenMax.to('#scene2 img#forest_scene2', 3, {
-	// 	transform: 'translateX(0)',
-	// 	opacity: .90,
+	.add(TweenMax.to('#scene2 img#forestscene2', 3, {
+		transform: 'translateX(0)',
+		opacity: .8,
+		ease: Linear.easeNone
+	}))
+	// kids
+	.add(TweenMax.to('#scene2 img#hansel_walking', 3, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene2 img#gretel_walking', 3, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// breadcrumbs
+	.add(TweenMax.to('#scene2 img#breadcrumbs', 1, {
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// sun
+	.add(TweenMax.to('#scene2 img#sun', 1, {
+		transform: 'translateY(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene2 img#sun', 1, {
+		transform: 'translateY(150px)',
+		opacity: 0,
+		delay: 3,
+		ease: Linear.easeNone
+	}))
+	// moon
+	.add(TweenMax.to('#scene2 img#moon', 1, {
+		transform: 'translateY(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// wandering through forest2
+	.add(TweenMax.to('#scene2 h3#onceupon5', 4, {
+		opacity: 1,
+	}))
+	.add(TweenMax.to('#scene2 h3#onceupon5', 1, {
+		opacity: 0,
+	}))
+	// kids
+	.add(TweenMax.to('#scene2 img#hansel_walking', 1.5, {
+		transform: 'translateY(-30px)',
+		transform: 'rotateY(180deg)'
+	}))
+	.add(TweenMax.to('#scene2 img#gretel_walking', 1.5, {
+		transform: 'translateY(-30px)',
+		transform: 'rotateY(180deg)'
+	}))
+	// breadcrumbs
+	.add(TweenMax.to('#scene2 img#breadcrumbs', 3, {
+		opacity: 0,
+		ease: Linear.easeNone
+	}))
+	// wandering through forest3
+	.add(TweenMax.to('#scene2 h3#onceupon6', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene2 h3#onceupon6', 1, {
+		opacity: 0
+	}))
+
+
+
+	// finding witch's house
+	.add(TweenMax.to('#scene3', 1, { 
+		transform: 'translateY(0)'
+	}))
+	.add(TweenMax.to('#scene3', 4, {
+		opacity: 1,
+		delay: 0.5
+	}))
+	// text one for this scene
+	.add(TweenMax.to('#scene3 h3#onceupon7', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene3 h3#onceupon7', 1, {
+		opacity: 0
+	}))
+
+	// all forests, right, left and bottom
+	.add(TweenMax.to('#scene3 img#forest_left', 3, {
+		transform: 'translateX(0)',
+		opacity: .8,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene3 img#forest_right', 3, {
+		transform: 'translateX(0)',
+		opacity: .8,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene3 img#forest_bottom', 3, {
+		transform: 'translateY(0)',
+		opacity: .8,
+		ease: Linear.easeNone
+	}))
+
+	// hansel and gretel
+	.add(TweenMax.to('#scene3 img#hansel_head', 1, {
+		transform: 'translateY(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene3 img#gretel_head', 1, {
+		transform: 'translateY(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// text two for this scene
+	.add(TweenMax.to('#scene3 h3#onceupon8', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene3 h3#onceupon8', 1, {
+		opacity: 0
+	}))
+
+	// hansel and gretel
+	.add(TweenMax.to('#scene3 img#hansel_head', 1, {
+		transform: 'translateX(150px)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene3 img#gretel_head', 1, {
+		transform: 'translateX(-150px)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// house
+	.add(TweenMax.to('#scene3 img#house', 1, {
+		transform: 'translateY(0)',
+		transform: 'scale(2.5)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+
+
+	// eating witch's house
+	.add(TweenMax.to('#scene4', 1, { 
+		transform: 'translateY(0)'
+	}))
+	.add(TweenMax.to('#scene4', 4, {
+		opacity: 1,
+		delay: 0.5
+	}))
+	// text one for this scene
+	.add(TweenMax.to('#scene3 h3#onceupon7', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene3 h3#onceupon7', 1, {
+		opacity: 0
+	}))
+
+	// .add(TweenMax.to('#scene2 img#gretel_walking', 3, {
+	// 	transform: 'translateY(0)',
+	// 	opacity: 1,
 	// 	ease: Linear.easeNone
 	// }))
-	// // kids
-	// .add(TweenMax.to('#scene2 img#forest_scene2', 3, {
-	// 	transform: 'translateX(0)',
-	// 	opacity: .90,
-	// 	ease: Linear.easeNone
-	// }))
-	// .add(TweenMax.to('#scene2 img#hansel_walking', 3, {
-	// 	transform: 'translateX(0)',
-	// 	opacity: .90,
-	// 	ease: Linear.easeNone
-	// }))
+
 	// .add(TweenMax.to('#scene2 img#hansel_walking', 6, {	
 	// 	transform: 'scale(2)',
  // 		ease: Cubic.easeOut,
@@ -143,28 +295,28 @@ $(function() {
 	// }))
 
 
-	.add(TweenMax.to('#second-wipe', 1, { transform: 'translateY(0)' }))
-	.add(TweenMax.to('#slide', 1, {
-	    top: '0%',
-	    ease: Bounce.easeOut,
-	    delay: 0.2
-	})).add([
-	    TweenMax.to('#slide h3:first-child', 0.2, { autoAlpha: 0 }),
-	    TweenMax.from('#slide h3:last-child', 0.2, { autoAlpha: 0 })
-	]).add([
-	    TweenMax.to('#slide', 0.3, { backgroundColor: 'yellow' }),
-	    TweenMax.to('#slide h3:last-child', 0.3, { color: 'blue' })
-	]).add([
-	    TweenMax.to('#slide', 0.3, { backgroundColor: 'green' }),
-	    TweenMax.to('#slide h3:last-child', 0.3, { color: 'red' })
-	]).add([
-	    TweenMax.to('#slide', 0.3, { backgroundColor: 'red' }),
-	    TweenMax.to('#slide h3:last-child', 0.3, { color: 'white' })
-	]).add([
-	    TweenMax.to('#slide', 0.3, { backgroundColor: '#c7e1ff' }),
-	    TweenMax.to('#slide h3:last-child', 0.3, { color: 'black' })
-	]).add(TweenMax.to('#slide-dos', 1, { transform: 'translateX(0)' }))
-	.add(TweenMax.from('#unpin', 0.5, { top: '100%' }));
+	// .add(TweenMax.to('#second-wipe', 1, { transform: 'translateY(0)' }))
+	// .add(TweenMax.to('#slide', 1, {
+	//     top: '0%',
+	//     ease: Bounce.easeOut,
+	//     delay: 0.2
+	// })).add([
+	//     TweenMax.to('#slide h3:first-child', 0.2, { autoAlpha: 0 }),
+	//     TweenMax.from('#slide h3:last-child', 0.2, { autoAlpha: 0 })
+	// ]).add([
+	//     TweenMax.to('#slide', 0.3, { backgroundColor: 'yellow' }),
+	//     TweenMax.to('#slide h3:last-child', 0.3, { color: 'blue' })
+	// ]).add([
+	//     TweenMax.to('#slide', 0.3, { backgroundColor: 'green' }),
+	//     TweenMax.to('#slide h3:last-child', 0.3, { color: 'red' })
+	// ]).add([
+	//     TweenMax.to('#slide', 0.3, { backgroundColor: 'red' }),
+	//     TweenMax.to('#slide h3:last-child', 0.3, { color: 'white' })
+	// ]).add([
+	//     TweenMax.to('#slide', 0.3, { backgroundColor: '#c7e1ff' }),
+	//     TweenMax.to('#slide h3:last-child', 0.3, { color: 'black' })
+	// ]).add(TweenMax.to('#slide-dos', 1, { transform: 'translateX(0)' }))
+	.add(TweenMax.from('#unpin', 0.5, { top: '100%', delay: 10 }));
 	var scene = new ScrollScene({
 	    triggerElement: 'section#pin',
 	    duration: 10000
