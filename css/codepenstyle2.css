@@ -578,7 +578,7 @@ header {
   opacity: 0;
   width: 13%;
   left: 90%;
-  top:15%;
+  top:13%;
 }
 
 #scene6 #fire0{
@@ -586,7 +586,7 @@ header {
   opacity: 0;
   width: 13%;
   left: 90%;
-  top: 17%;
+  top: 13%;
   height: 18%;
 
 }
@@ -596,7 +596,7 @@ header {
   opacity: 0;
   width: 13%;
   left: 90%;
-  top: 14%;
+  top: 12%;
   height: 20%;
 
 }
@@ -703,8 +703,8 @@ header {
   width: 25%;
   /*height: 25%;*/
   left: 67.5%;
-  height: 20%;
-  top: 51%;
+  /*height: 18%;*/
+  top: 42.75%;
   z-index: 1;
 
 }
@@ -718,7 +718,7 @@ header {
 }
 #wipe #legs{
   width: 20%;
-  top: 45%;
+  top: 43%;
   left: 70%;
   height: 20%;
 

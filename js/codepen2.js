@@ -267,11 +267,10 @@ $(function() {
 	// eating witch's house
 	.add(TweenMax.to('#scene4', 1, { 
 		transform: 'translateY(0)',
-		delay: .5
+		delay: 10
 	}))
 	.add(TweenMax.to('#scene4', 4, {
-		opacity: 1,
-		delay: 0.5
+		opacity: 1
 	}))
 	// text one for this scene
 	.add(TweenMax.to('#scene4 h3#onceupon9', 4, {
