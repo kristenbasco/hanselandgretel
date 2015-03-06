@@ -286,22 +286,24 @@ html>/**/body .highslide-gallery ul img {
 	display: none;
 }
 .highslide-html {
-	background-color: white;
+	background-color: #f0e3d1;
 }
 .mobile .highslide-html {
 	border: 1px solid silver;
 }
 .highslide-html-content {
 	display: none;
-	width: 400px;
-	padding: 0 5px 5px 5px;
+	width: 50%;
+	padding: 0 15px 5px 15px;
+	line-height: 1.5;
+	background-color: #f0e3d1;
 }
 .highslide-header {
 	padding-bottom: 5px;
 }
 .highslide-header ul {
 	margin: 0;
-	padding: 0;
+	padding: 10px 0 0 0;
 	text-align: right;
 }
 .highslide-header ul li {
@@ -886,4 +888,31 @@ html>/**/body .highslide-gallery ul img {
 }
 .highslide-thumbstrip-float .highslide-marker {
 	display: none;
+}
+
+
+
+
+
+.highslide-html-content h3{
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-size: 13px;
+}
+.highslide-html {
+	background: none;
+}
+.highslide-header ul a {
+	background-image: url(graphics/controlbar-text-buttons.png);
+	padding-left: 16px;
+	display: inline-block;
+	height: 16px;
+}
+.highslide-header ul li span {
+	display: none;
+}
+.highslide-header .highslide-move {
+	display: none;
+}
+.highslide-header .highslide-close a {
+	background-position: 0 -221px;
 }

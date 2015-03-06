@@ -2479,3 +2479,5 @@ hs.addEventListener(document, 'ready', hs.getAnchors);
 hs.addEventListener(window, 'load', hs.preloadImages);
 hs.addEventListener(window, 'load', hs.preloadAjax);
 }
+
+hs.showCredits = false;
