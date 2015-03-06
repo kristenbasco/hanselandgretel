@@ -602,9 +602,7 @@ $(function() {
 		opacity: 1,
 		delay: 5
 	}))
-	.add(TweenMax.to('#wipe img#fire3', 4, {
-		opacity: 1,
-	}))
+
 	.add(TweenMax.to('#wipe img#broom', 4, {
 		transform: 'translateX(0)',
 		opacity: 1,
@@ -620,6 +618,7 @@ $(function() {
 		opacity: 0.9,
 	}))
 	
+	
 	.add(TweenMax.to('#wipe h3#witchdead1', 4, {
 		transform: 'translateX(0)',
 		opacity: 1,
@@ -633,6 +632,12 @@ $(function() {
 		opacity: 1,
 		delay: 5
 	}))
+
+	.add(TweenMax.to('#wipe img#fire2', 4, {
+		opacity: 1,
+		delay: 3
+	}))
+	
 	.add(TweenMax.to('#wipe img#empty-cage', 4, {
 		transform: 'translateX(0)',
 		opacity: 1,

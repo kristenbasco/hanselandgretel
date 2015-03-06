@@ -695,8 +695,8 @@ header {
   width: 25%;
   /*height: 25%;*/
   left: 67.5%;
+  top: 42.5%;
   height: 30%;
-  top: 40%;
 
 }
 #wipe #fire2{
@@ -704,17 +704,11 @@ header {
   /*height: 25%;*/
   left: 67.5%;
   height: 20%;
-  top: 50%;
+  top: 51%;
+  z-index: 1;
 
 }
-#wipe #fire3{
-  width: 25%;
-  /*height: 25%;*/
-  left: 67.5%;
-  height: 30%;
-  top: 50%;
 
-}
 #wipe #redbg{
   width: 27%;
   left: 68%;
