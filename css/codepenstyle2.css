@@ -453,7 +453,32 @@ header {
 }
 
 
+#scene5 h3 {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+/*  left: 50%;
+  width: 50%;*/
+  -webkit-transform: translateY(-50%);
+}
 
+
+#scene5 #witch_nice{
+  position: absolute;
+  width: 70%;
+  opacity: 0;
+  top: 10%;
+  left: 30%;
+
+}
+#scene5 #witch_evil{
+  position: absolute;
+  width: 50%;
+  opacity: 0;
+  top: 55%;
+  left: 40%;
+
+}
 
 
 

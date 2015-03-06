@@ -332,7 +332,6 @@ $(function() {
 
 
 
-
 	// scene 5, 4 technically
 	.add(TweenMax.to('#scene5', 1, { 
 		transform: 'translateY(0)'
@@ -341,6 +340,74 @@ $(function() {
 		opacity: 1,
 		delay: 0.5
 	}))
+
+
+	//scene 5 witch transition
+	
+	.add(TweenMax.to('#scene5 h3#onceupon11', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene5 h3#onceupon11', 1, {
+		opacity: 0
+	}))
+
+	.add(TweenMax.to('#scene5 img#witch_nice', 4, {
+		opacity: 1,
+		ease: Linear.easeNone,
+		delay:4
+			
+	}))
+	.add(TweenMax.to('#scene5 img#witch_nice', 2, {
+		opacity: 0.7,
+		ease: Linear.easeNone,
+		delay:2
+			
+	}))
+	.add(TweenMax.to('#scene5 img#witch_nice', 0.3, {
+		opacity: 0.3
+			
+	}))
+	.add(TweenMax.to('#scene5 img#witch_evil', 4, {
+		transform: 'scale(2.0)',
+		opacity: 1,
+		delay: 2,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene5 img#witch_nice', 1, {
+		opacity: 0,
+			
+	}))
+
+
+	.add(TweenMax.to('#scene5 h3#onceupon11-1', 6, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene5 img#witch_evil', 1, {
+		opacity:0
+	}))
+	.add(TweenMax.to('#scene5 h3#onceupon11-1', 1, {
+		opacity: 0
+	}))
+
+	.add(TweenMax.to('#scene5 h3#onceupon12', 6, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene5 h3#onceupon12', 1, {
+		opacity: 0
+	}))
+
+
+
+
+
+
+
+
+
+
 
 
 	// scene 6, 5 technically
