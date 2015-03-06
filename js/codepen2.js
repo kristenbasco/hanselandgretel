@@ -364,7 +364,7 @@ $(function() {
 		delay:2
 			
 	}))
-	.add(TweenMax.to('#scene5 img#witch_nice', 0.3, {
+	.add(TweenMax.to('#scene5 img#witch_nice', 0.1, {
 		opacity: 0.3
 			
 	}))
