@@ -273,14 +273,64 @@ $(function() {
 		delay: 0.5
 	}))
 	// text one for this scene
-	.add(TweenMax.to('#scene3 h3#onceupon7', 4, {
+	.add(TweenMax.to('#scene4 h3#onceupon9', 4, {
 		opacity: 1,
 		delay: 5
 	}))
-	.add(TweenMax.to('#scene3 h3#onceupon7', 1, {
+	.add(TweenMax.to('#scene4 h3#onceupon9', 1, {
 		opacity: 0
 	}))
 
+	// forest/house
+	.add(TweenMax.to('#scene4 img#forest_back', 1, {
+		transform: 'translateX(0)',
+		opacity: .8,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene4 img#blackhouse', 1, {
+		transform: 'translateX(0)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// kids
+	.add(TweenMax.to('#scene4 img#hansel_candy', 1, {
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	.add(TweenMax.to('#scene4 img#gretel_candy', 1, {
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// witch
+	.add(TweenMax.to('#scene4 img#witch_intro', 1, {
+		transform: 'translateX(-70px)',
+		opacity: 1,
+		ease: Linear.easeNone
+	}))
+	// last words
+	.add(TweenMax.to('#scene4 h3#onceupon10', 4, {
+		opacity: 1,
+		delay: 5
+	}))
+	.add(TweenMax.to('#scene4 h3#onceupon10', 1, {
+		opacity: 0
+	}))
+	.add(TweenMax.to('#scene4 img#witch_intro', 3, {
+		onUpdate: function () {
+			$('#witch_intro').attr("src","img/witch nice mouth.png")
+		},
+		delay: 2
+	}))
+	// peppermint
+	.add(TweenMax.to('#scene4 img#peppermint', 6, {
+		opacity: 1,
+		rotation: -90,
+		// transform: 'rotate(30deg)',
+		// repeat: 1
+	}))
+
+
+// 
 	// .add(TweenMax.to('#scene2 img#gretel_walking', 3, {
 	// 	transform: 'translateY(0)',
 	// 	opacity: 1,
